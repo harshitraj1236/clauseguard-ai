@@ -1,6 +1,6 @@
-import type { AnalyzedClause, ContractAuditResult, RiskLevel } from "../../../types/contract.ts";
-import { SAFE_BENCHMARKS } from "../../benchmarks/safe-clauses.ts";
-import { gemma } from "../../gemma/client.ts";
+import type { AnalyzedClause, ContractAuditResult, RiskLevel } from "../../../types/contract";
+import { SAFE_BENCHMARKS } from "../../benchmarks/safe-clauses";
+import { gemma } from "../../gemma/client";
 
 /**
  * Mastra-style Contract Auditor Workflow

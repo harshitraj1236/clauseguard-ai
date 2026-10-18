@@ -38,6 +38,7 @@ Avoiding a single 90-day payment delay or a contested IP ownership claim saves t
 ## Demo
 
 - **Local Port:** `http://localhost:1093`
+- **Live Port:** `https://clauseguard-ai-ws69.onrender.com/`
 - **User Interface:** Cyber-tactical sci-fi HUD console inspired by mission-critical defense dashboards, engineered with full responsive support across **mobile phones, tablets, and desktop workstations**.
 - **Live Node Monitoring:** An active health indicator verifies that the local Ollama instance is reachable (`● NODE: gemma2:2b (Ollama Local)`), proving zero cloud transmission.
 
