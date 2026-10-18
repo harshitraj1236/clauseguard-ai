@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: clauseguard-ai
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 1093
+      - key: GEMMA_PROVIDER
+        value: ollama
+      - key: GEMMA_MODEL
+        value: gemma2:2b
+      - key: OLLAMA_BASE_URL
+        sync: false
+      - key: ELEVENLABS_API_KEY
+        sync: false
