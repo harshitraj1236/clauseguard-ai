@@ -19,10 +19,10 @@ import {
   Terminal,
   Zap
 } from "lucide-react";
-import { ContractAuditResult } from "@/types/contract";
-import ScoreGauge from "@/components/ScoreGauge";
-import PipelineTracker from "@/components/PipelineTracker";
-import VoicePlayer from "@/components/VoicePlayer";
+import { ContractAuditResult } from "../types/contract";
+import ScoreGauge from "../components/ScoreGauge";
+import PipelineTracker from "../components/PipelineTracker";
+import VoicePlayer from "../components/VoicePlayer";
 
 export default function Home() {
   const [contractText, setContractText] = useState("");

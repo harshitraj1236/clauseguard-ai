@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { contractAuditor } from "@/lib/mastra/workflows/contract-auditor";
-import { generateVoiceBriefing } from "@/lib/audio/elevenlabs";
+import { contractAuditor } from "../../../lib/mastra/workflows/contract-auditor";
+import { generateVoiceBriefing } from "../../../lib/audio/elevenlabs";
 
 export async function POST(req: NextRequest) {
   try {
